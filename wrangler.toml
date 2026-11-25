@@ -1,0 +1,17 @@
+# Cloudflare Pages + R2 + D1 Konfiguration
+# Trage nach dem Anlegen deiner D1-Datenbank die eigene database_id ein,
+# oder verbinde DB & PHOTOS_BUCKET direkt im Cloudflare Dashboard unter:
+# Pages -> Settings -> Bindings
+
+name = "tag-der-offenen-tuer-galerie"
+compatibility_date = "2026-01-01"
+pages_build_output_dir = "dist"
+
+[[r2_buckets]]
+binding = "PHOTOS_BUCKET"
+bucket_name = "tag-der-offenen-tuer-fotos"
+
+[[d1_databases]]
+binding = "DB"
+database_name = "tag-der-offenen-tuer-db"
+database_id = "DEINE_D1_DATABASE_ID_HIER"

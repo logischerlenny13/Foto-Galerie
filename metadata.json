@@ -1,0 +1,10 @@
+{
+  "name": "Tag der offenen Tür — Live-Fotogalerie",
+  "description": "Minimalistische Echtzeit-Fotogalerie und Beamer-Kiosk für den Tag der offenen Tür mit 5-Minuten-Datenschutzlöschung, 30-Foto-Limit, PIN-Upload und verlustfreiem iOS/Android-Download.",
+  "requestFramePermissions": [
+    "camera"
+  ],
+  "majorCapabilities": [
+    "MAJOR_CAPABILITY_SERVER_SIDE_GEMINI_API"
+  ]
+}
